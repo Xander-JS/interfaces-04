@@ -5,17 +5,37 @@ export default function Home() {
   return (
     <body>
 
-      // barra de navegacion
+      {/* barra de navegacion */}
       <header>
         <nav>
+          <button>
+            <img src="" alt="" />
+            Flex
+          </button>
 
+          <div>
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <button>Search</button>
+          </div>
+
+          <div>
+            <img src="" alt="" />
+            <div>
+              <p>Your Balance</p>
+              <p>$5.456</p>
+            </div>
+            <img src="" alt="" />
+            <p>Hi, Lay</p>
+          </div>
         </nav>
       </header>
 
 
       <div>
 
-        // contenido principal
+
+        {/* contenido principal */}
         <main>
           <section>
 
@@ -25,7 +45,7 @@ export default function Home() {
           </section>
         </main>
 
-        // contenido segundario
+        {/* contenido segundario */}
         <aside>
           <section>
           </section>
@@ -38,9 +58,6 @@ export default function Home() {
         </aside>
 
       </div>
-
-      <footer>
-      </footer>
 
     </body>
 
